@@ -1,0 +1,298 @@
+body {
+    background-color: #222;
+    /* Background image is from https://github.com/StylishThemes/GitHub-Dark */
+    background-image: url(data:image/png;base64,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) !important;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: left top;
+    color: #c0c0c0;
+}
+
+h1,
+h2 {
+    color: #c0c0c0 !important;
+}
+
+a {
+    color: #e2dddd !important;
+}
+
+a:hover {
+    color: #00c7f4 !important;
+}
+
+label {
+    color: #949494;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="url"],
+select,
+textarea,
+.checkbox-group {
+    background-color: #181818;
+    border-color: #343434;
+    color: #ccc;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="url"]:focus,
+select:focus,
+textarea:focus {
+    background-color: #181818;
+    border-color: #4183C4;
+}
+
+select,
+select:hover {
+    /* Background image is from https://github.com/StylishThemes/GitHub-Dark */
+    background: #181818 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAQAAAAua3X8AAAARklEQVR4AWNABWcazjQg8zGl/wNhA15piBL80gglmNKYSjClMZUgpDGVwKXxKBl4QNiRBLxJIKAIBzXhyCIc3YQTDMEkBwBplPJRxEMa4wAAAABJRU5ErkJggg==") no-repeat right 8px center !important;
+    background-size: 8px 10px !important;
+    border-color: #343434;
+}
+
+pre {
+    background-color: #181818;
+    border-color: #343434;
+    color: #ccc;
+}
+
+code {
+    background-color: #222;
+    border: 1px solid rgba(255, 255, 255, .1);
+    color: #c0c0c0;
+}
+
+
+.contain-to-grid,
+.top-bar,
+.top-bar-section ul,
+.top-bar-section li a:not(.button),
+.top-bar-section li a:not(.button):hover,
+.top-bar-section .dropdown li label,
+.responsive-table,
+.project-builds,
+.project-build {
+    background: #181818;
+}
+
+.top-bar-section .dropdown li label {
+    color: #606060;
+}
+
+.top-bar-section li a:not(.button):hover {
+    color: #00b3e0;
+}
+
+.contain-to-grid {
+    border-bottom: solid 1px #343434;
+}
+
+
+.project-moniker,
+.project-moniker:hover{
+    color: #000 !important;
+    font-size: .7rem;
+    line-height: .7rem;
+    padding: .25rem !important;
+    text-transform: none;
+    font-weight: 400 !important;
+    vertical-align: baseline !important;
+    margin-bottom: 0;
+}
+.project-moniker.private {
+    text-transform: capitalize;
+}
+
+.project-name .project-moniker {
+    margin: 0;
+    vertical-align: baseline !important;
+}
+
+.project-group {
+    background-color: #181818;
+    color: #949494 !important;
+}
+.project-group:hover,
+.project-group:hover .project-build {
+    background-color: #242424 !important;
+}
+.project-build .project-build-version,
+.project-build .project-build-state,
+.project-build .project-deployment-environment {
+    margin-right: 1rem;
+}
+
+.project-build + .project-build {
+    border-top: solid 1px #343434 !important;
+}
+
+.project-build:last-of-type {
+    border-bottom: none;
+}
+.project-build-status.running {
+    border-bottom: none;
+}
+
+.project-build-message,
+.project-build-message a,
+.project-build-version {
+    color: #e2e2e2 !important;
+}
+.project-build-status a:hover {
+    color: #00b3e0 !important;
+}
+
+.console-log-truncated,
+.top-bar-section .divider,
+.responsive-table .row.empty-list .columns,
+.project-builds-more,
+.deployment-scenario {
+    border-color: #343434;
+}
+
+.top-bar-section li.hover > a:not(.button),
+.project-builds-more:hover,
+.responsive-table .row.body:hover,
+.responsive-table .row.body .columns.navigate a:hover {
+    background-color: rgba(255,255,255,.1);
+}
+.project-group-header:hover {
+    background-color: transparent;
+}
+.project-group-header:hover .project-name a {
+    color: #00b3e0;
+}
+.project-toolbox li a:hover {
+    background-color: transparent !important;
+}
+
+.project-build-state .cancel-build,
+.project-build-state .delete-build {
+    color: #f44 !important;
+}
+.project-build-state .cancel-build:hover,
+.project-build-state .delete-build:hover {
+    color: #b00 !important;
+}
+
+/* changes the branch icon & text to a purple color */
+/*.branch {
+    filter: sepia() saturate(10000%) hue-rotate(280deg);
+}*/
+
+
+.horiz-nav li a.active {
+    border-bottom: solid 2px #00b3e0;
+}
+
+.horiz-tabs li a {
+    margin-top: 1rem;
+}
+.horiz-tabs li:not(.active) a:hover {
+    background-color: #444;
+    color: #e2dddd !important;
+}
+.horiz-tabs li.active a,
+.horiz-tabs li.active a span {
+    color: #222 !important;
+}
+
+.vertical-tabs li a {
+    color: #e2e2e2;
+}
+.vertical-tabs li a:hover {
+    background-color: #333;
+    /*color: #00b3e0;*/
+}
+.vertical-tabs li.active a {
+    background-color: transparent;
+    color: #00b3e0;
+}
+
+.responsive-table .row.header .columns {
+    border-color: #343434;
+}
+.responsive-table .row.body .columns {
+    color: #c0c0c0;
+}
+
+.responsive-table.editable-table {
+    background-color: transparent;
+}
+
+.job-console {
+    background-color: #182030;
+    border-color: #246;
+    color: #e2e2e2;
+}
+.job-console .bg-1 {
+    background-color: #182030;
+    color: #e2e2e2;
+}
+
+@-webkit-keyframes build-running-status {
+    0%,40%,to {
+        border-left-color: #fce40f
+    }
+
+    75% {
+        border-left-color: #f7f5f4
+    }
+}
+
+@keyframes build-running-status {
+    0%,40%,to {
+        border-left-color: #fce40f
+    }
+
+    75% {
+        border-left-color: #f7f5f4
+    }
+}
+
+@-webkit-keyframes build-queued-status {
+    0%,40%,to {
+        border-left-color: #66ddf8
+    }
+
+    75% {
+        border-left-color: #f7f5f4
+    }
+}
+
+@keyframes build-queued-status {
+    0%,40%,to {
+        border-left-color: #66ddf8
+    }
+
+    75% {
+        border-left-color: #f7f5f4
+    }
+}
+
+@-webkit-keyframes build-cancelling-status {
+    0%,40%,to {
+        border-left-color: #d9d5d1
+    }
+
+    75% {
+        border-left-color: #f7f5f4
+    }
+}
+
+@keyframes build-cancelling-status {
+    0%,40%,to {
+        border-left-color: #d9d5d1
+    }
+
+    75% {
+        border-left-color: #f7f5f4
+    }
+}
