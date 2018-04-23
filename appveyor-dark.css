@@ -24,7 +24,7 @@
 		color: #c0c0c0 !important;
 	}
 
-	a {
+	a, b {
 		color: #e2dddd !important;
 	}
 
@@ -69,9 +69,9 @@
 	}
 
 	pre {
-		background-color: #181818 !important;
-		border-color: #343434 !important;
-		color: #ccc !important;
+		background-color:#ffc !important;
+		border-color: #ffff7e !important;
+		color: #000 !important;
 	}
 
 	code {
