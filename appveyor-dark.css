@@ -75,9 +75,9 @@
 	}
 
 	code {
-		background-color: #222 !important;
-		border: 1px solid rgba(255, 255, 255, .1) !important;;
-		color: #c0c0c0 !important;
+		background-color: rgba(16, 33, 50, .64) !important;
+		border: 1px solid rgb(46, 96, 145) !important;
+		color: #9daccc !important;
 	}
 
 	.contain-to-grid,
