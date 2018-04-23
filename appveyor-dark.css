@@ -92,7 +92,8 @@
 		background: #181818 !important;
 	}
 
-	.top-bar-section .dropdown li label {
+	.top-bar-section .dropdown li label,
+	.ng-binding {
 		color: #606060 !important;
 	}
 
@@ -213,7 +214,10 @@
 		margin-top: 1rem !important;
 	}
 
-	.horiz-tabs li:not(.active) a:hover {
+	.horiz-tabs li:not(.active) a:hover,
+	.price,
+	.bullet-item,
+	.cta-button {
 		background-color: #444 !important;
 		color: #e2dddd !important;
 	}
