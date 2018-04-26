@@ -111,6 +111,7 @@
 
   .contain-to-grid,
   .top-bar,
+  .top-bar.expanded .title-area,
   .top-bar-section ul,
   .top-bar-section li a:not(.button),
   .top-bar-section li a:not(.button):hover,
