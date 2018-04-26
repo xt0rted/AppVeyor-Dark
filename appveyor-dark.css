@@ -83,6 +83,19 @@
     color: #222 !important;
   }
 
+  .switch-buttons li a {
+    color: #222 !important;
+    transition: background-color 300ms ease-out, border-color 300ms ease-out !important;
+  }
+
+  .switch-buttons li a:hover {
+    background-color: #c0c0c0 !important;
+  }
+
+  .switch-buttons li.active a:hover {
+    background-color: #2795b6 !important;
+  }
+
   .field-value > pre,
   label + div > pre {
     background-color: #181818 !important;
