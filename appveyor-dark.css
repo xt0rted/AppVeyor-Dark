@@ -68,6 +68,15 @@
     border-color: #343434 !important;
   }
 
+  form.show-required input.ng-invalid,
+  form.show-required input:focus.ng-invalid,
+  form.show-required select.ng-invalid,
+  form.show-required select:focus.ng-invalid,
+  form.show-required textarea:focus.ng-invalid,
+  form.show-required textarea.ng-invalid {
+    border-color: #f44 !important;
+  }
+
   .field-value > pre,
   label + div > pre {
     background-color: #181818 !important;
