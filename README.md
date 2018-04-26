@@ -15,4 +15,4 @@ If you find any issues, don't hesitate to [open a report](https://github.com/xt0
 
 Install from https://userstyles.org/styles/158021 or while browsing `ci.appveyor.com` select the `Find styles` option in [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/).
 
-[![CC--BY--SA--4.0](https://img.shields.io/badge/Licence-%20CC--BY--SA--4.0%20-blue.svg)](LICENCE)
+[![CC--BY--SA--4.0](https://img.shields.io/badge/License-%20CC--BY--SA--4.0%20-blue.svg)](LICENSE)
