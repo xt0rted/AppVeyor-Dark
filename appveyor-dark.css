@@ -77,6 +77,12 @@
     border-color: #f44 !important;
   }
 
+  .button,
+  .button:focus,
+  .button:hover {
+    color: #222 !important;
+  }
+
   .field-value > pre,
   label + div > pre {
     background-color: #181818 !important;
