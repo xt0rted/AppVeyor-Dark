@@ -7,7 +7,7 @@ If you find any issues, don't hesitate to [open a report](https://github.com/xt0
 
 ## What it looks like
 
-![build](/screenshots/build.png)  
+![build](/screenshots/build.png)
 
 ![history](/screenshots/history.png)
 
