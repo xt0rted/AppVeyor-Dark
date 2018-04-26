@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        AppVeyor CI Dark
 @namespace   StylishThemes
-@version     1.0.2
+@version     1.0.3
 @homepageURL https://github.com/xt0rted/AppVeyor-Dark
 @updateURL   https://raw.githubusercontent.com/xt0rted/AppVeyor-Dark/master/appveyor-dark.css
 @license     CC-BY-SA-4.0
@@ -107,6 +107,26 @@
     background-color: #182030 !important;
     border: 1px solid #246 !important;
     color: #9daccc !important;
+  }
+
+  .pricing-table {
+    border-color: #303030 !important;
+  }
+  .pricing-table .title {
+    background-color: #303030 !important;
+    border-bottom: solid 1px #343434 !important;
+  }
+  .pricing-table .price,
+  .pricing-table .bullet-item,
+  .pricing-table .cta-button {
+    background-color: #181818 !important;
+    border-color: #343434 !important;
+    color: #c0c0c0 !important;
+  }
+
+  .pricing-table .bullet-item,
+  .pricing-table .description {
+    border-bottom-style: solid !important;
   }
 
   .contain-to-grid,
