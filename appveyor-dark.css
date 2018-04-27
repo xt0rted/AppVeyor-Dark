@@ -112,10 +112,12 @@
   .pricing-table {
     border-color: #303030 !important;
   }
+
   .pricing-table .title {
     background-color: #303030 !important;
     border-bottom: solid 1px #343434 !important;
   }
+
   .pricing-table .price,
   .pricing-table .bullet-item,
   .pricing-table .cta-button {
