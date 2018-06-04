@@ -290,6 +290,12 @@
     color: #00b3e0 !important;
   }
 
+  @media only screen and (max-width: 40em) {
+    .responsive-table .row.body {
+      border-color: #343434 !important;
+    }
+  }
+
   .responsive-table .row.header .columns {
     border-color: #343434 !important;
   }
