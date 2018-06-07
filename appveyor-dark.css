@@ -319,6 +319,11 @@
     color: #e2e2e2 !important;
   }
 
+  .trial-warning {
+    background-color: #181818 !important;
+    color: #aaa !important;
+  }
+
   @-webkit-keyframes build-running-status {
     0%,40%,to {
       border-left-color: #fce40f !important;
