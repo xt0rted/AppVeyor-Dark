@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        AppVeyor CI Dark
 @namespace   StylishThemes
-@version     1.0.6
+@version     1.0.7
 @homepageURL https://github.com/xt0rted/AppVeyor-Dark
 @updateURL   https://raw.githubusercontent.com/xt0rted/AppVeyor-Dark/master/appveyor-dark.css
 @license     CC-BY-SA-4.0
@@ -322,6 +322,20 @@
   .trial-warning {
     background-color: #181818 !important;
     color: #aaa !important;
+  }
+
+  .in-page-warning {
+    background: #182030 !important;
+    border-color: #264c72 !important;
+    color: #c8d0e1 !important;
+  }
+
+  .in-page-warning a {
+    color: #4183c4 !important;
+  }
+
+  .in-page-warning a:hover {
+    text-decoration: underline;
   }
 
   @-webkit-keyframes build-running-status {
