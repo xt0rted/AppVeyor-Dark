@@ -288,14 +288,9 @@
     color: #e2e2e2 !important;
   }
 
-  .vertical-tabs li > a:hover {
-    background-color: #333 !important;
-    /*color: #00b3e0 !important;*/
-  }
-
+  .vertical-tabs li > a:hover,
   .vertical-tabs li.active > a {
-    background-color: transparent !important;
-    color: #00b3e0 !important;
+    background-color: #333 !important;
   }
 
   @media only screen and (max-width: 40em) {
