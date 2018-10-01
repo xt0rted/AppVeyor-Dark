@@ -85,6 +85,16 @@
     color: #222 !important;
   }
 
+  .button.secondary {
+    background-color: #e7e7e7 !important;
+    color: #333 !important;
+  }
+
+  .button.secondary:hover,
+  .button.secondary:focus {
+    background-color: #b9b9b9 !important;
+  }
+
   .switch-buttons li a {
     color: #222 !important;
     transition: background-color 300ms ease-out, border-color 300ms ease-out !important;
