@@ -104,6 +104,10 @@
     color: #ccc !important;
   }
 
+  .lighter {
+    color: #7b7b7b !important;
+  }
+
   .responsive-table pre {
     background-color: #202020 !important;
   }
