@@ -150,7 +150,7 @@
   .responsive-table,
   .project-builds,
   .project-build {
-    background: #181818 !important;
+    background-color: #181818 !important;
   }
 
   .top-bar-section .dropdown li label {
