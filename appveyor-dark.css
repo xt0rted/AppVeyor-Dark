@@ -284,6 +284,10 @@
     color: #222 !important;
   }
 
+  .vertical-tabs-container h2 {
+    border-color: #343434 !important;
+  }
+
   .vertical-tabs li > a {
     color: #e2e2e2 !important;
   }
