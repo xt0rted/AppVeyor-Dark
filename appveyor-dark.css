@@ -98,8 +98,7 @@
     background-color: #2795b6 !important;
   }
 
-  .field-value > pre,
-  label + div > pre {
+  pre {
     background-color: #181818 !important;
     border-color: #343434 !important;
     color: #ccc !important;
