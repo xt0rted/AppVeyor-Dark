@@ -284,16 +284,16 @@
     color: #222 !important;
   }
 
-  .vertical-tabs li a {
+  .vertical-tabs li > a {
     color: #e2e2e2 !important;
   }
 
-  .vertical-tabs li a:hover {
+  .vertical-tabs li > a:hover {
     background-color: #333 !important;
     /*color: #00b3e0 !important;*/
   }
 
-  .vertical-tabs li.active a {
+  .vertical-tabs li.active > a {
     background-color: transparent !important;
     color: #00b3e0 !important;
   }
