@@ -104,6 +104,10 @@
     color: #ccc !important;
   }
 
+  .responsive-table pre {
+    background-color: #202020 !important;
+  }
+
   code {
     background-color: #182030 !important;
     border: 1px solid #246 !important;
