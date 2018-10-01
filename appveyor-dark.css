@@ -345,6 +345,12 @@
     text-decoration: underline;
   }
 
+  .has-tip {
+    color: #b5b5b5 !important;
+    background-color: #444 !important;
+    border-color: #444 !important;
+  }
+
   @-webkit-keyframes build-running-status {
     0%,40%,to {
       border-left-color: #fce40f !important;
