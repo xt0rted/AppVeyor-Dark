@@ -334,6 +334,12 @@
   .job-console .bg-1 {
     background-color: #182030 !important;
   }
+  .job-console > div > a {
+    color: #888 !important;
+  }
+  .job-console > div > a:hover {
+    color: #00c7f4 !important;
+  }
 
   .trial-warning {
     background-color: #181818 !important;
